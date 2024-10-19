@@ -1,0 +1,21 @@
+FROM wsl_2_rocm_docker_win
+
+# Set the working directory
+WORKDIR /
+
+# Install git (if not already installed in the base image)
+RUN apt install -y curl
+
+# Install Ollama
+RUN curl -L https://github.com/ollama/ollama/releases/latest/download/ollama-linux-amd64 -o /usr/local/bin/ollama && \
+    chmod +x /usr/local/bin/ollama
+
+# Set up environment variables for ROCm
+ENV PATH="/opt/rocm/bin:${PATH}"
+ENV LD_LIBRARY_PATH="/opt/rocm/lib:${LD_LIBRARY_PATH:-}"
+
+# Expose necessary port
+EXPOSE 11434
+
+# Define the command to run Ollama at container start
+CMD ["ollama", "serve"]

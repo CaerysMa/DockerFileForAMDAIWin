@@ -1,4 +1,4 @@
-FROM wsl_2_rocm_docker_win
+FROM wsl_2_rocm_custom
 
 # Set the working directory
 WORKDIR /

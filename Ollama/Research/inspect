@@ -1,0 +1,72 @@
+[
+    {
+        "Id": "sha256:686797545767b27be57c0a98d2a69383d3b9dc015669cb98f82d1486c3d6135d",
+        "RepoTags": [
+            "ollama/ollama:rocm"
+        ],
+        "RepoDigests": [
+            "ollama/ollama@sha256:686797545767b27be57c0a98d2a69383d3b9dc015669cb98f82d1486c3d6135d"
+        ],
+        "Parent": "",
+        "Comment": "buildkit.dockerfile.v0",
+        "Created": "2024-10-10T22:55:19.726371768Z",
+        "DockerVersion": "27.2.0",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "ExposedPorts": {
+                "11434/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "OLLAMA_HOST=0.0.0.0"
+            ],
+            "Cmd": [
+                "serve"
+            ],
+            "ArgsEscaped": true,
+            "Image": "",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": [
+                "/bin/ollama"
+            ],
+            "OnBuild": null,
+            "Labels": {
+                "org.opencontainers.image.ref.name": "ubuntu",
+                "org.opencontainers.image.version": "22.04"
+            }
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 1427913140,
+        "GraphDriver": {
+            "Data": null,
+            "Name": "overlayfs"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:2573e0d8158209ed54ab25c87bcdcb00bd3d2539246960a3d592a1c599d70465",
+                "sha256:89dad83ece73ca567b988584c54a49d47ceb405a13ba44c9ecbf9ba156c62800",
+                "sha256:3f39cfd0477ea419b841d377a96cdb1b87d0171c302630492b394eb06a5dd7e1",
+                "sha256:e219f610af04e2d2ee070fd1ca503898c0d353b4eb182935960714dacf700893",
+                "sha256:e746b06b89c293f95efff93755b589d7c838272611354b52591ae3b0cc4bd1c2",
+                "sha256:2391441cc6d5a4514e49fd66b4c1f1542cd7c07031b692820f64bc97761dc102",
+                "sha256:6e37eaa709e999c07893d1102f4c603ded2b2e5c8d0d7133f80b0676a2740371",
+                "sha256:b2870d81dcc884f661b1e3e9726069576d6b29808825dc79baca91f3cda4c7c8"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "2024-10-18T18:07:46.891664517Z"
+        }
+    }
+]

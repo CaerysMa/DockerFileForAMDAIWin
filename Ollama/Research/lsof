@@ -1,0 +1,200 @@
+ollama    1   7 ollama  root  cwd       DIR  0,110     4096  15155 /
+ollama    1   7 ollama  root  rtd       DIR  0,110     4096  15155 /
+ollama    1   7 ollama  root  txt       REG  0,110 25712152  15033 /usr/bin/ollama
+ollama    1   7 ollama  root  mem       REG   8,48           15033 /usr/bin/ollama (path dev=0,110)
+ollama    1   7 ollama  root  mem       REG   8,48            8095 /usr/lib/x86_64-linux-gnu/libc.so.6 (path dev=0,110)
+ollama    1   7 ollama  root  mem       REG   8,48            8595 /usr/lib/x86_64-linux-gnu/libgcc_s.so.1 (path dev=0,110)
+ollama    1   7 ollama  root  mem       REG   8,48            8829 /usr/lib/x86_64-linux-gnu/libm.so.6 (path dev=0,110)
+ollama    1   7 ollama  root  mem       REG   8,48            9181 /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30 (path dev=0,110)
+ollama    1   7 ollama  root  mem       REG   8,48            8545 /usr/lib/x86_64-linux-gnu/libdl.so.2 (path dev=0,110)
+ollama    1   7 ollama  root  mem       REG   8,48            9099 /usr/lib/x86_64-linux-gnu/librt.so.1 (path dev=0,110)
+ollama    1   7 ollama  root  mem       REG   8,48            9096 /usr/lib/x86_64-linux-gnu/libpthread.so.0 (path dev=0,110)
+ollama    1   7 ollama  root  mem       REG   8,48            9097 /usr/lib/x86_64-linux-gnu/libresolv.so.2 (path dev=0,110)
+ollama    1   7 ollama  root  mem       REG   8,48            7922 /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 (path dev=0,110)
+ollama    1   7 ollama  root    0u      CHR  136,0      0t0      3 /dev/pts/0
+ollama    1   7 ollama  root    1u      CHR  136,0      0t0      3 /dev/pts/0
+ollama    1   7 ollama  root    2u      CHR  136,0      0t0      3 /dev/pts/0
+ollama    1   7 ollama  root    3u     IPv6  97427      0t0    TCP *:11434 (LISTEN)
+ollama    1   7 ollama  root    4u  a_inode   0,13        0  17252 [eventpoll]
+ollama    1   7 ollama  root    5r     FIFO   0,12      0t0  97423 pipe
+ollama    1   7 ollama  root    6w     FIFO   0,12      0t0  97423 pipe
+ollama    1   8 ollama  root  cwd       DIR  0,110     4096  15155 /
+ollama    1   8 ollama  root  rtd       DIR  0,110     4096  15155 /
+ollama    1   8 ollama  root  txt       REG  0,110 25712152  15033 /usr/bin/ollama
+ollama    1   8 ollama  root  mem       REG   8,48           15033 /usr/bin/ollama (path dev=0,110)
+ollama    1   8 ollama  root  mem       REG   8,48            8095 /usr/lib/x86_64-linux-gnu/libc.so.6 (path dev=0,110)
+ollama    1   8 ollama  root  mem       REG   8,48            8595 /usr/lib/x86_64-linux-gnu/libgcc_s.so.1 (path dev=0,110)
+ollama    1   8 ollama  root  mem       REG   8,48            8829 /usr/lib/x86_64-linux-gnu/libm.so.6 (path dev=0,110)
+ollama    1   8 ollama  root  mem       REG   8,48            9181 /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30 (path dev=0,110)
+ollama    1   8 ollama  root  mem       REG   8,48            8545 /usr/lib/x86_64-linux-gnu/libdl.so.2 (path dev=0,110)
+ollama    1   8 ollama  root  mem       REG   8,48            9099 /usr/lib/x86_64-linux-gnu/librt.so.1 (path dev=0,110)
+ollama    1   8 ollama  root  mem       REG   8,48            9096 /usr/lib/x86_64-linux-gnu/libpthread.so.0 (path dev=0,110)
+ollama    1   8 ollama  root  mem       REG   8,48            9097 /usr/lib/x86_64-linux-gnu/libresolv.so.2 (path dev=0,110)
+ollama    1   8 ollama  root  mem       REG   8,48            7922 /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 (path dev=0,110)
+ollama    1   8 ollama  root    0u      CHR  136,0      0t0      3 /dev/pts/0
+ollama    1   8 ollama  root    1u      CHR  136,0      0t0      3 /dev/pts/0
+ollama    1   8 ollama  root    2u      CHR  136,0      0t0      3 /dev/pts/0
+ollama    1   8 ollama  root    3u     IPv6  97427      0t0    TCP *:11434 (LISTEN)
+ollama    1   8 ollama  root    4u  a_inode   0,13        0  17252 [eventpoll]
+ollama    1   8 ollama  root    5r     FIFO   0,12      0t0  97423 pipe
+ollama    1   8 ollama  root    6w     FIFO   0,12      0t0  97423 pipe
+ollama    1   9 ollama  root  cwd       DIR  0,110     4096  15155 /
+ollama    1   9 ollama  root  rtd       DIR  0,110     4096  15155 /
+ollama    1   9 ollama  root  txt       REG  0,110 25712152  15033 /usr/bin/ollama
+ollama    1   9 ollama  root  mem       REG   8,48           15033 /usr/bin/ollama (path dev=0,110)
+ollama    1   9 ollama  root  mem       REG   8,48            8095 /usr/lib/x86_64-linux-gnu/libc.so.6 (path dev=0,110)
+ollama    1   9 ollama  root  mem       REG   8,48            8595 /usr/lib/x86_64-linux-gnu/libgcc_s.so.1 (path dev=0,110)
+ollama    1   9 ollama  root  mem       REG   8,48            8829 /usr/lib/x86_64-linux-gnu/libm.so.6 (path dev=0,110)
+ollama    1   9 ollama  root  mem       REG   8,48            9181 /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30 (path dev=0,110)
+ollama    1   9 ollama  root  mem       REG   8,48            8545 /usr/lib/x86_64-linux-gnu/libdl.so.2 (path dev=0,110)
+ollama    1   9 ollama  root  mem       REG   8,48            9099 /usr/lib/x86_64-linux-gnu/librt.so.1 (path dev=0,110)
+ollama    1   9 ollama  root  mem       REG   8,48            9096 /usr/lib/x86_64-linux-gnu/libpthread.so.0 (path dev=0,110)
+ollama    1   9 ollama  root  mem       REG   8,48            9097 /usr/lib/x86_64-linux-gnu/libresolv.so.2 (path dev=0,110)
+ollama    1   9 ollama  root  mem       REG   8,48            7922 /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 (path dev=0,110)
+ollama    1   9 ollama  root    0u      CHR  136,0      0t0      3 /dev/pts/0
+ollama    1   9 ollama  root    1u      CHR  136,0      0t0      3 /dev/pts/0
+ollama    1   9 ollama  root    2u      CHR  136,0      0t0      3 /dev/pts/0
+ollama    1   9 ollama  root    3u     IPv6  97427      0t0    TCP *:11434 (LISTEN)
+ollama    1   9 ollama  root    4u  a_inode   0,13        0  17252 [eventpoll]
+ollama    1   9 ollama  root    5r     FIFO   0,12      0t0  97423 pipe
+ollama    1   9 ollama  root    6w     FIFO   0,12      0t0  97423 pipe
+ollama    1  10 ollama  root  cwd       DIR  0,110     4096  15155 /
+ollama    1  10 ollama  root  rtd       DIR  0,110     4096  15155 /
+ollama    1  10 ollama  root  txt       REG  0,110 25712152  15033 /usr/bin/ollama
+ollama    1  10 ollama  root  mem       REG   8,48           15033 /usr/bin/ollama (path dev=0,110)
+ollama    1  10 ollama  root  mem       REG   8,48            8095 /usr/lib/x86_64-linux-gnu/libc.so.6 (path dev=0,110)
+ollama    1  10 ollama  root  mem       REG   8,48            8595 /usr/lib/x86_64-linux-gnu/libgcc_s.so.1 (path dev=0,110)
+ollama    1  10 ollama  root  mem       REG   8,48            8829 /usr/lib/x86_64-linux-gnu/libm.so.6 (path dev=0,110)
+ollama    1  10 ollama  root  mem       REG   8,48            9181 /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30 (path dev=0,110)
+ollama    1  10 ollama  root  mem       REG   8,48            8545 /usr/lib/x86_64-linux-gnu/libdl.so.2 (path dev=0,110)
+ollama    1  10 ollama  root  mem       REG   8,48            9099 /usr/lib/x86_64-linux-gnu/librt.so.1 (path dev=0,110)
+ollama    1  10 ollama  root  mem       REG   8,48            9096 /usr/lib/x86_64-linux-gnu/libpthread.so.0 (path dev=0,110)
+ollama    1  10 ollama  root  mem       REG   8,48            9097 /usr/lib/x86_64-linux-gnu/libresolv.so.2 (path dev=0,110)
+ollama    1  10 ollama  root  mem       REG   8,48            7922 /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 (path dev=0,110)
+ollama    1  10 ollama  root    0u      CHR  136,0      0t0      3 /dev/pts/0
+ollama    1  10 ollama  root    1u      CHR  136,0      0t0      3 /dev/pts/0
+ollama    1  10 ollama  root    2u      CHR  136,0      0t0      3 /dev/pts/0
+ollama    1  10 ollama  root    3u     IPv6  97427      0t0    TCP *:11434 (LISTEN)
+ollama    1  10 ollama  root    4u  a_inode   0,13        0  17252 [eventpoll]
+ollama    1  10 ollama  root    5r     FIFO   0,12      0t0  97423 pipe
+ollama    1  10 ollama  root    6w     FIFO   0,12      0t0  97423 pipe
+ollama    1  11 ollama  root  cwd       DIR  0,110     4096  15155 /
+ollama    1  11 ollama  root  rtd       DIR  0,110     4096  15155 /
+ollama    1  11 ollama  root  txt       REG  0,110 25712152  15033 /usr/bin/ollama
+ollama    1  11 ollama  root  mem       REG   8,48           15033 /usr/bin/ollama (path dev=0,110)
+ollama    1  11 ollama  root  mem       REG   8,48            8095 /usr/lib/x86_64-linux-gnu/libc.so.6 (path dev=0,110)
+ollama    1  11 ollama  root  mem       REG   8,48            8595 /usr/lib/x86_64-linux-gnu/libgcc_s.so.1 (path dev=0,110)
+ollama    1  11 ollama  root  mem       REG   8,48            8829 /usr/lib/x86_64-linux-gnu/libm.so.6 (path dev=0,110)
+ollama    1  11 ollama  root  mem       REG   8,48            9181 /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30 (path dev=0,110)
+ollama    1  11 ollama  root  mem       REG   8,48            8545 /usr/lib/x86_64-linux-gnu/libdl.so.2 (path dev=0,110)
+ollama    1  11 ollama  root  mem       REG   8,48            9099 /usr/lib/x86_64-linux-gnu/librt.so.1 (path dev=0,110)
+ollama    1  11 ollama  root  mem       REG   8,48            9096 /usr/lib/x86_64-linux-gnu/libpthread.so.0 (path dev=0,110)
+ollama    1  11 ollama  root  mem       REG   8,48            9097 /usr/lib/x86_64-linux-gnu/libresolv.so.2 (path dev=0,110)
+ollama    1  11 ollama  root  mem       REG   8,48            7922 /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 (path dev=0,110)
+ollama    1  11 ollama  root    0u      CHR  136,0      0t0      3 /dev/pts/0
+ollama    1  11 ollama  root    1u      CHR  136,0      0t0      3 /dev/pts/0
+ollama    1  11 ollama  root    2u      CHR  136,0      0t0      3 /dev/pts/0
+ollama    1  11 ollama  root    3u     IPv6  97427      0t0    TCP *:11434 (LISTEN)
+ollama    1  11 ollama  root    4u  a_inode   0,13        0  17252 [eventpoll]
+ollama    1  11 ollama  root    5r     FIFO   0,12      0t0  97423 pipe
+ollama    1  11 ollama  root    6w     FIFO   0,12      0t0  97423 pipe
+ollama    1  12 ollama  root  cwd       DIR  0,110     4096  15155 /
+ollama    1  12 ollama  root  rtd       DIR  0,110     4096  15155 /
+ollama    1  12 ollama  root  txt       REG  0,110 25712152  15033 /usr/bin/ollama
+ollama    1  12 ollama  root  mem       REG   8,48           15033 /usr/bin/ollama (path dev=0,110)
+ollama    1  12 ollama  root  mem       REG   8,48            8095 /usr/lib/x86_64-linux-gnu/libc.so.6 (path dev=0,110)
+ollama    1  12 ollama  root  mem       REG   8,48            8595 /usr/lib/x86_64-linux-gnu/libgcc_s.so.1 (path dev=0,110)
+ollama    1  12 ollama  root  mem       REG   8,48            8829 /usr/lib/x86_64-linux-gnu/libm.so.6 (path dev=0,110)
+ollama    1  12 ollama  root  mem       REG   8,48            9181 /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30 (path dev=0,110)
+ollama    1  12 ollama  root  mem       REG   8,48            8545 /usr/lib/x86_64-linux-gnu/libdl.so.2 (path dev=0,110)
+ollama    1  12 ollama  root  mem       REG   8,48            9099 /usr/lib/x86_64-linux-gnu/librt.so.1 (path dev=0,110)
+ollama    1  12 ollama  root  mem       REG   8,48            9096 /usr/lib/x86_64-linux-gnu/libpthread.so.0 (path dev=0,110)
+ollama    1  12 ollama  root  mem       REG   8,48            9097 /usr/lib/x86_64-linux-gnu/libresolv.so.2 (path dev=0,110)
+ollama    1  12 ollama  root  mem       REG   8,48            7922 /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 (path dev=0,110)
+ollama    1  12 ollama  root    0u      CHR  136,0      0t0      3 /dev/pts/0
+ollama    1  12 ollama  root    1u      CHR  136,0      0t0      3 /dev/pts/0
+ollama    1  12 ollama  root    2u      CHR  136,0      0t0      3 /dev/pts/0
+ollama    1  12 ollama  root    3u     IPv6  97427      0t0    TCP *:11434 (LISTEN)
+ollama    1  12 ollama  root    4u  a_inode   0,13        0  17252 [eventpoll]
+ollama    1  12 ollama  root    5r     FIFO   0,12      0t0  97423 pipe
+ollama    1  12 ollama  root    6w     FIFO   0,12      0t0  97423 pipe
+ollama    1  13 ollama  root  cwd       DIR  0,110     4096  15155 /
+ollama    1  13 ollama  root  rtd       DIR  0,110     4096  15155 /
+ollama    1  13 ollama  root  txt       REG  0,110 25712152  15033 /usr/bin/ollama
+ollama    1  13 ollama  root  mem       REG   8,48           15033 /usr/bin/ollama (path dev=0,110)
+ollama    1  13 ollama  root  mem       REG   8,48            8095 /usr/lib/x86_64-linux-gnu/libc.so.6 (path dev=0,110)
+ollama    1  13 ollama  root  mem       REG   8,48            8595 /usr/lib/x86_64-linux-gnu/libgcc_s.so.1 (path dev=0,110)
+ollama    1  13 ollama  root  mem       REG   8,48            8829 /usr/lib/x86_64-linux-gnu/libm.so.6 (path dev=0,110)
+ollama    1  13 ollama  root  mem       REG   8,48            9181 /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30 (path dev=0,110)
+ollama    1  13 ollama  root  mem       REG   8,48            8545 /usr/lib/x86_64-linux-gnu/libdl.so.2 (path dev=0,110)
+ollama    1  13 ollama  root  mem       REG   8,48            9099 /usr/lib/x86_64-linux-gnu/librt.so.1 (path dev=0,110)
+ollama    1  13 ollama  root  mem       REG   8,48            9096 /usr/lib/x86_64-linux-gnu/libpthread.so.0 (path dev=0,110)
+ollama    1  13 ollama  root  mem       REG   8,48            9097 /usr/lib/x86_64-linux-gnu/libresolv.so.2 (path dev=0,110)
+ollama    1  13 ollama  root  mem       REG   8,48            7922 /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 (path dev=0,110)
+ollama    1  13 ollama  root    0u      CHR  136,0      0t0      3 /dev/pts/0
+ollama    1  13 ollama  root    1u      CHR  136,0      0t0      3 /dev/pts/0
+ollama    1  13 ollama  root    2u      CHR  136,0      0t0      3 /dev/pts/0
+ollama    1  13 ollama  root    3u     IPv6  97427      0t0    TCP *:11434 (LISTEN)
+ollama    1  13 ollama  root    4u  a_inode   0,13        0  17252 [eventpoll]
+ollama    1  13 ollama  root    5r     FIFO   0,12      0t0  97423 pipe
+ollama    1  13 ollama  root    6w     FIFO   0,12      0t0  97423 pipe
+ollama    1  14 ollama  root  cwd       DIR  0,110     4096  15155 /
+ollama    1  14 ollama  root  rtd       DIR  0,110     4096  15155 /
+ollama    1  14 ollama  root  txt       REG  0,110 25712152  15033 /usr/bin/ollama
+ollama    1  14 ollama  root  mem       REG   8,48           15033 /usr/bin/ollama (path dev=0,110)
+ollama    1  14 ollama  root  mem       REG   8,48            8095 /usr/lib/x86_64-linux-gnu/libc.so.6 (path dev=0,110)
+ollama    1  14 ollama  root  mem       REG   8,48            8595 /usr/lib/x86_64-linux-gnu/libgcc_s.so.1 (path dev=0,110)
+ollama    1  14 ollama  root  mem       REG   8,48            8829 /usr/lib/x86_64-linux-gnu/libm.so.6 (path dev=0,110)
+ollama    1  14 ollama  root  mem       REG   8,48            9181 /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30 (path dev=0,110)
+ollama    1  14 ollama  root  mem       REG   8,48            8545 /usr/lib/x86_64-linux-gnu/libdl.so.2 (path dev=0,110)
+ollama    1  14 ollama  root  mem       REG   8,48            9099 /usr/lib/x86_64-linux-gnu/librt.so.1 (path dev=0,110)
+ollama    1  14 ollama  root  mem       REG   8,48            9096 /usr/lib/x86_64-linux-gnu/libpthread.so.0 (path dev=0,110)
+ollama    1  14 ollama  root  mem       REG   8,48            9097 /usr/lib/x86_64-linux-gnu/libresolv.so.2 (path dev=0,110)
+ollama    1  14 ollama  root  mem       REG   8,48            7922 /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 (path dev=0,110)
+ollama    1  14 ollama  root    0u      CHR  136,0      0t0      3 /dev/pts/0
+ollama    1  14 ollama  root    1u      CHR  136,0      0t0      3 /dev/pts/0
+ollama    1  14 ollama  root    2u      CHR  136,0      0t0      3 /dev/pts/0
+ollama    1  14 ollama  root    3u     IPv6  97427      0t0    TCP *:11434 (LISTEN)
+ollama    1  14 ollama  root    4u  a_inode   0,13        0  17252 [eventpoll]
+ollama    1  14 ollama  root    5r     FIFO   0,12      0t0  97423 pipe
+ollama    1  14 ollama  root    6w     FIFO   0,12      0t0  97423 pipe
+ollama    1  36 ollama  root  cwd       DIR  0,110     4096  15155 /
+ollama    1  36 ollama  root  rtd       DIR  0,110     4096  15155 /
+ollama    1  36 ollama  root  txt       REG  0,110 25712152  15033 /usr/bin/ollama
+ollama    1  36 ollama  root  mem       REG   8,48           15033 /usr/bin/ollama (path dev=0,110)
+ollama    1  36 ollama  root  mem       REG   8,48            8095 /usr/lib/x86_64-linux-gnu/libc.so.6 (path dev=0,110)
+ollama    1  36 ollama  root  mem       REG   8,48            8595 /usr/lib/x86_64-linux-gnu/libgcc_s.so.1 (path dev=0,110)
+ollama    1  36 ollama  root  mem       REG   8,48            8829 /usr/lib/x86_64-linux-gnu/libm.so.6 (path dev=0,110)
+ollama    1  36 ollama  root  mem       REG   8,48            9181 /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30 (path dev=0,110)
+ollama    1  36 ollama  root  mem       REG   8,48            8545 /usr/lib/x86_64-linux-gnu/libdl.so.2 (path dev=0,110)
+ollama    1  36 ollama  root  mem       REG   8,48            9099 /usr/lib/x86_64-linux-gnu/librt.so.1 (path dev=0,110)
+ollama    1  36 ollama  root  mem       REG   8,48            9096 /usr/lib/x86_64-linux-gnu/libpthread.so.0 (path dev=0,110)
+ollama    1  36 ollama  root  mem       REG   8,48            9097 /usr/lib/x86_64-linux-gnu/libresolv.so.2 (path dev=0,110)
+ollama    1  36 ollama  root  mem       REG   8,48            7922 /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 (path dev=0,110)
+ollama    1  36 ollama  root    0u      CHR  136,0      0t0      3 /dev/pts/0
+ollama    1  36 ollama  root    1u      CHR  136,0      0t0      3 /dev/pts/0
+ollama    1  36 ollama  root    2u      CHR  136,0      0t0      3 /dev/pts/0
+ollama    1  36 ollama  root    3u     IPv6  97427      0t0    TCP *:11434 (LISTEN)
+ollama    1  36 ollama  root    4u  a_inode   0,13        0  17252 [eventpoll]
+ollama    1  36 ollama  root    5r     FIFO   0,12      0t0  97423 pipe
+ollama    1  36 ollama  root    6w     FIFO   0,12      0t0  97423 pipe
+ollama    1  37 ollama  root  cwd       DIR  0,110     4096  15155 /
+ollama    1  37 ollama  root  rtd       DIR  0,110     4096  15155 /
+ollama    1  37 ollama  root  txt       REG  0,110 25712152  15033 /usr/bin/ollama
+ollama    1  37 ollama  root  mem       REG   8,48           15033 /usr/bin/ollama (path dev=0,110)
+ollama    1  37 ollama  root  mem       REG   8,48            8095 /usr/lib/x86_64-linux-gnu/libc.so.6 (path dev=0,110)
+ollama    1  37 ollama  root  mem       REG   8,48            8595 /usr/lib/x86_64-linux-gnu/libgcc_s.so.1 (path dev=0,110)
+ollama    1  37 ollama  root  mem       REG   8,48            8829 /usr/lib/x86_64-linux-gnu/libm.so.6 (path dev=0,110)
+ollama    1  37 ollama  root  mem       REG   8,48            9181 /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30 (path dev=0,110)
+ollama    1  37 ollama  root  mem       REG   8,48            8545 /usr/lib/x86_64-linux-gnu/libdl.so.2 (path dev=0,110)
+ollama    1  37 ollama  root  mem       REG   8,48            9099 /usr/lib/x86_64-linux-gnu/librt.so.1 (path dev=0,110)
+ollama    1  37 ollama  root  mem       REG   8,48            9096 /usr/lib/x86_64-linux-gnu/libpthread.so.0 (path dev=0,110)
+ollama    1  37 ollama  root  mem       REG   8,48            9097 /usr/lib/x86_64-linux-gnu/libresolv.so.2 (path dev=0,110)
+ollama    1  37 ollama  root  mem       REG   8,48            7922 /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2 (path dev=0,110)
+ollama    1  37 ollama  root    0u      CHR  136,0      0t0      3 /dev/pts/0
+ollama    1  37 ollama  root    1u      CHR  136,0      0t0      3 /dev/pts/0
+ollama    1  37 ollama  root    2u      CHR  136,0      0t0      3 /dev/pts/0
+ollama    1  37 ollama  root    3u     IPv6  97427      0t0    TCP *:11434 (LISTEN)
+ollama    1  37 ollama  root    4u  a_inode   0,13        0  17252 [eventpoll]
+ollama    1  37 ollama  root    5r     FIFO   0,12      0t0  97423 pipe
+ollama    1  37 ollama  root    6w     FIFO   0,12      0t0  97423 pipe

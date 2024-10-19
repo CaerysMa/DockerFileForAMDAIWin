@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  ollama-rocm:
+    image: ollama-rocm-custom:latest
+    environment:
+      - LD_LIBRARY_PATH=/usr/lib/wsl/lib
+      - share=True
+      - PIP_BREAK_SYSTEM_PACKAGES=1
+      - OLLAMA_HOST=0.0.0.0
+      - HSA_OVERRIDE_GFX_VERSION=10.3.0
+      - HSA_ENABLE_SDMA=0
+    devices:
+      - /dev/dxg
+    volumes:
+      - type: bind
+        source: /usr/lib/wsl
+        target: /usr/lib/wsl
+      - ./models:/root/.ollama/models:rw
+      - ./data:/root/.ollama:rw
+    ports:
+      - "11434:11434"
+    entrypoint: ["/usr/bin/ollama"]
+    command: ["serve"]
+    tty: true
+
+volumes:
+  models:
+  data:

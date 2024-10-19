@@ -1,0 +1,55 @@
+# Start from Ubuntu 22.04 as the base image
+FROM ubuntu:22.04 as builder
+
+# Set environment variables
+ENV DEBIAN_FRONTEND=noninteractive
+ENV OLLAMA_HOST=0.0.0.0
+
+# Install necessary packages
+RUN apt-get update && apt-get install -y \
+    ca-certificates \
+    curl \
+    wget \
+    gnupg \
+    lsb-release \
+    software-properties-common \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install AMD ROCm
+RUN wget -q -O - https://repo.radeon.com/rocm/rocm.gpg.key | apt-key add - \
+    && echo 'deb [arch=amd64] https://repo.radeon.com/rocm/apt/debian/ ubuntu main' | tee /etc/apt/sources.list.d/rocm.list \
+    && apt-get update \
+    && apt-get install -y rocm-dev
+
+# Download and install Ollama
+RUN curl -L https://github.com/ollama/ollama/releases/latest/download/ollama-linux-amd64 -o /usr/local/bin/ollama \
+    && chmod +x /usr/local/bin/ollama
+
+# Create ollama user and group
+RUN useradd -r -s /bin/false -m -d /usr/share/ollama ollama \
+    && usermod -a -G render ollama \
+    && usermod -a -G video ollama
+
+# Set up the runtime environment
+FROM ubuntu:22.04
+
+# Copy necessary files from builder
+COPY --from=builder /usr/local/bin/ollama /usr/local/bin/ollama
+COPY --from=builder /usr/share/ollama /usr/share/ollama
+
+# Copy CUDA libraries (adjust paths as necessary)
+COPY --from=builder /usr/local/cuda /usr/local/cuda
+
+# Set environment variables
+ENV OLLAMA_HOST=0.0.0.0
+ENV PATH="/usr/local/cuda/bin:${PATH}"
+ENV LD_LIBRARY_PATH="/usr/local/cuda/lib64:${LD_LIBRARY_PATH}"
+
+# Expose Ollama port
+EXPOSE 11434
+
+# Set the entrypoint
+ENTRYPOINT ["/usr/local/bin/ollama"]
+
+# Set the default command
+CMD ["serve"]
