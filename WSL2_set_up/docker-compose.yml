@@ -1,6 +1,6 @@
 services:
-  ubuntulatest:
-    image: ubuntu:latest
+  ubuntu2204:
+    image: ubuntu:22.04
     volumes:
       - type: bind
         source: /usr/lib/wsl
